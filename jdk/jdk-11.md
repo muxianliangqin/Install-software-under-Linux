@@ -14,3 +14,9 @@ yum install -y java-11-openjdk.x86_64
 ![yum安装jdk11](https://github.com/muxianliangqin/Install-software-under-Linux/blob/main/jdk/yum%E5%AE%89%E8%A3%85jdk11.png)
 
 等待安装完毕即可。
+
+检查是否jdk版本
+```
+java -version
+```
+![查看jdk版本](https://github.com/muxianliangqin/Install-software-under-Linux/blob/main/jdk/%E6%9F%A5%E7%9C%8Bjdk%E7%89%88%E6%9C%AC.png)
