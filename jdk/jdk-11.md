@@ -15,7 +15,7 @@ yum install -y java-11-openjdk.x86_64
 
 等待安装完毕即可。
 
-检查是否jdk版本
+查看jdk版本
 ```
 java -version
 ```
