@@ -4,7 +4,7 @@ rabbitMQ依赖erlang
 ```
 http://mirrors.nju.edu.cn/epel/
 ```
-![rabbitmq的rpm版本](https://github.com/muxianliangqin/learn-note-of-linux/blob/main/rabbitmq/images/erlang%E7%9A%84rpm%E7%89%88%E6%9C%AC.png)
+![erlang的rpm版本](images/erlang的rpm版本.png)
 
 这里选择最新版
 ```
@@ -37,7 +37,7 @@ erl
 ```
 https://www.rabbitmq.com/install-rpm.html#downloads
 ```
-![rabbitMQ的rpm](https://github.com/muxianliangqin/learn-note-of-linux/blob/main/rabbitmq/images/rabbitmq%E7%9A%84rpm%E7%89%88%E6%9C%AC.png)
+![rabbitMQ的rpm](images/rabbitmq的rpm版本.png)
 
 
 
