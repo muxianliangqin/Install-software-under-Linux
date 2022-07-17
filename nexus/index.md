@@ -2,29 +2,29 @@
 
 ### 搜索镜像
 ```
-docker search nexus
+sudo docker search nexus
 ```
 ![docker搜索nexus](images/docker搜索nexus.png)
 
 ### 选择并拉取镜像
 ```
-docker pull docker.io/sonatype/nexus3
+sudo docker pull docker.io/sonatype/nexus3
 ```
 ### 创建挂载目录
 ```
-mkdir /home/nexus/data
+sudo mkdir /home/nexus/data
 ```
 ### 启动nexus时可能会遇到权限的问题，赋予最高权限
 ```
-chmod 777 /home/nexus/data
+sudo chmod 777 /home/nexus/data
 ```
 ### docker启动
 ```
-docker run -d --name nexus3 -p 9081:8081 -p 9082:8082 -p 9083:8083 -v /home/nexus/data:/nexus-data sonatype/nexus3
+sudo docker run -d --name nexus3 -p 9081:8081 -p 9082:8082 -p 9083:8083 -v /home/nexus/data:/nexus-data sonatype/nexus3
 ```
 ### 查看日志
 ```
-docker logs nexus3
+sudo docker logs nexus3
 ```
 如果查看失败，使用`docker ps -a` 查看容器，使用`docker logs ${container_id}`查看日志
 

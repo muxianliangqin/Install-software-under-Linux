@@ -10,3 +10,5 @@ mvn clean package -Dmaven.test.skip=true
 注册中心**eureka**
 
 1. 启动server
+
+`nohup java -jar ***.jar >/home/java/logs/config-server.log 2>&1 &`
