@@ -52,7 +52,7 @@ under the License.
      | Default: ${user.home}/.m2/repository
     <localRepository>/path/to/local/repo</localRepository>
     -->
-    <localRepository>/Users/zengfugen/Applications/maven/repository</localRepository>
+    <!--     <localRepository>/Users/zengfugen/Applications/maven/repository</localRepository> -->
 
     <!-- interactiveMode
      | This will determine whether maven prompts you when it needs input. If set to false,
@@ -291,6 +291,39 @@ under the License.
                     <id>central</id>
                     <name>MyRepository</name>
                     <url>http://central</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>ai-qiyue-snapshots</id>
+                    <name>ai-qiyue-snapshots</name>
+                    <url>http://47.106.140.189:9081/repository/ai-qiyue-snapshots/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>ai-qiyue-releases</id>
+                    <name>ai-qiyue-releases</name>
+                    <url>http://47.106.140.189:9081/repository/ai-qiyue-releases/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>ai-qiyue-public</id>
+                    <name>ai-qiyue-public</name>
+                    <url>http://47.106.140.189:9081/repository/maven-public/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
